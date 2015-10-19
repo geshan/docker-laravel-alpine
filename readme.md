@@ -19,6 +19,7 @@ docker pull geshan/alpine-laravel
 After pulling the image from docker registry, go into laravel project that has a composer.json.
 Then run the following commands to run php or composer:
 
+
 ```
 docker run -v $(pwd):/var/www geshan/laravel-alpine "composer install --prefer-dist"
 ```
