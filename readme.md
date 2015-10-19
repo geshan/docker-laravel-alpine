@@ -4,6 +4,8 @@ This is a docker container for Laravel 5.x with composer installed.
 [Alpine Linux](https://hub.docker.com/_/alpine/) base image its very small at `~41 MB`.
 This image is made for running tests for laravel not serving it over a web servicer like Nginx.
 
+[![](https://badge.imagelayers.io/geshan/laravel-alpine:latest.svg)](https://imagelayers.io/?images=geshan/laravel-alpine:latest 'Get your own badge on imagelayers.io')
+
 ## Pull it from docker registry
 
 To pull the docker image you can do it with:
