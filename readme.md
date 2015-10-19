@@ -20,14 +20,14 @@ After pulling the image from docker registry, go into laravel project that has a
 Then run the following commands to run php or composer:
 
 ```
-docker run -v $(pwd):/var/www geshan/php-composer-alpine "composer install --prefer-dist"
+docker run -v $(pwd):/var/www geshan/laravel-alpine "composer install --prefer-dist"
 ```
 Lets say if you are have PHPUnit in your composer.json, you can run the following commands
 to run your tests:
 
 ```
-docker run -v $(pwd):/var/www geshan/php-composer-alpine "./vendor/bin/phpunit --version"
-docker run -v $(pwd):/var/www geshan/php-composer-alpine "./vendor/bin/phpunit"
+docker run -v $(pwd):/var/www geshan/laravel-alpine "./vendor/bin/phpunit --version"
+docker run -v $(pwd):/var/www geshan/laravel-alpine "./vendor/bin/phpunit"
 ```
 
 ## As base image
@@ -35,7 +35,7 @@ docker run -v $(pwd):/var/www geshan/php-composer-alpine "./vendor/bin/phpunit"
 You can use it as a base image like below:
 
 ```
-FROM geshan/alpine-laravel
+FROM geshan/laravel-alpine
 
 //my docker image contents
 ```
