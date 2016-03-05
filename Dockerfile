@@ -2,7 +2,7 @@ FROM geshan/php-composer-alpine:latest
 
 Maintainer Geshan Manandhar <geshan.com.np>
 
-RUN apk --update add php-mysql php-pdo_mysql php-mcrypt php-ctype php-xml python && rm /var/cache/apk/*
+RUN apk --update add bash php-mysql php-pdo_mysql php-mcrypt php-ctype php-xml python && rm /var/cache/apk/*
 
 RUN composer global require hirak/prestissimo
 
