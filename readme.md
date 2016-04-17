@@ -35,7 +35,7 @@ docker run -v $(pwd):/var/www geshan/laravel-alpine "./vendor/bin/phpunit"
 You can use it as a base image like below:
 
 ```
-FROM geshan/laravel-alpine
+FROM geshan/laravel-alpine:php7
 
 //my docker image contents
 ```
