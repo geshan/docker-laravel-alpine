@@ -1,6 +1,6 @@
-## Docker Container for Laravel 5.x
+## Docker Container for Laravel 5.x with PHP7
 
-This is a docker container for Laravel 5.x with composer installed. 
+This is a docker container for Laravel 5.x with composer installed.
 [Alpine Linux](https://hub.docker.com/_/alpine/) base image its very small at `~75 MB`.
 This image is made for running tests for laravel not serving it over a web servicer like Nginx. It is primarily being used to run unit tests on [Wercker](http://wercker.com/).
 
@@ -11,7 +11,7 @@ This image is made for running tests for laravel not serving it over a web servi
 To pull the docker image you can do it with:
 
 ```
-docker pull geshan/alpine-laravel
+docker pull geshan/alpine-laravel:php7
 ```
 
 ## Usage
