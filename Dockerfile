@@ -8,6 +8,7 @@ RUN apk --update add bash \
                      php7-mcrypt \
                      php7-ctype \
                      php7-xml \
+                     php7-xdebug \
                      python --repository http://nl.alpinelinux.org/alpine/edge/testing/ && rm /var/cache/apk/*
 
 RUN composer global require hirak/prestissimo
