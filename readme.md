@@ -12,7 +12,7 @@ Do have a look at the [PHP7](https://github.com/geshan/docker-laravel-alpine/tre
 To pull the docker image you can do it with:
 
 ```
-docker pull geshan/alpine-laravel:php7
+docker pull geshan/laravel-alpine:php7
 ```
 
 ## Usage
