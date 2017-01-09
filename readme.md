@@ -5,7 +5,7 @@ This is a docker container for Laravel 5.x with composer installed.
 This image is made for running tests for laravel not serving it over a web servicer like Nginx. It is primarily being used to run unit tests on [Wercker](http://wercker.com/).
 Do have a look at the [PHP7](https://github.com/geshan/docker-laravel-alpine/tree/php7-branch) version of this image.
 
-[![](https://badge.imagelayers.io/geshan/laravel-alpine:latest.svg)](https://imagelayers.io/?images=geshan/laravel-alpine:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/geshan/laravel-alpine.svg)](https://microbadger.com/images/geshan/laravel-alpine "Get your own image badge on microbadger.com")
 
 ## Pull it from docker registry
 
