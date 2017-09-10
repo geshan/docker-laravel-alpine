@@ -28,7 +28,7 @@ to run your tests:
 
 ```
 docker run -v $(pwd):/var/www geshan/laravel-alpine "./vendor/bin/phpunit --version"
-docker run -v $(pwd):/var/www geshan/php7-laravel-alpine "./vendor/bin/phpunit"
+docker run -v $(pwd):/var/www geshan/laravel-alpine:php7 "./vendor/bin/phpunit"
 ```
 
 ## As base image
